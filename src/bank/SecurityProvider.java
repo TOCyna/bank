@@ -33,9 +33,10 @@ public class SecurityProvider {
 	public static String[] md5ToClient(Conta conta)
 	{
 		String toCrypt = conta.getNomeCliente() + " " + conta.getSaldo();
-		String crypted[] = toCrypt.split("");
-		for(int i = 1; i <= toCrypt.length(); i++){
-			crypted[i] = md5(crypted[i]);
+		char chars[] = toCrypt.toCharArray();
+		String crypted[] = new String[chars.length];
+		for(int i = 0; i < chars.length; i++){
+			crypted[i] = md5(Character.toString(chars[i]));
 		}
 		return crypted;
 	}

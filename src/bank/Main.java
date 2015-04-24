@@ -4,17 +4,17 @@ public class Main {
 	{
 		System.out.println("------------TEST------------");
 		test();
-		System.out.println("\n\n------------TEST1------------");
+		System.out.println("------------TEST1------------");
 		test1();
-		System.out.println("\n\n------------TEST2------------");
+		System.out.println("------------TEST2------------");
 		test2();
-		System.out.println("\n\n------------TEST3------------");
+		System.out.println("------------TEST3------------");
 		test3();
-		System.out.println("\n\n------------TEST4------------");
+		System.out.println("------------TEST4------------");
 		test4();
-		System.out.println("\n\n------------TEST6------------");
+		System.out.println("------------TEST6------------");
 		test6();
-		System.out.println("\n\n------------TEST5------------");
+		System.out.println("------------TEST5------------");
 		test5();
 	}
 	public static void test()

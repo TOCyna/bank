@@ -33,7 +33,7 @@ public class Database {
 		String str = ""; //cleans str
 		
 		//decode chars and build a string
-		for(int i = 1; i < chars.length; i++) {
+		for(int i = 0; i < chars.length; i++) {
 			Letra l = getLetra(chars[i]);
 			str += l.getCaractere();
 		}
